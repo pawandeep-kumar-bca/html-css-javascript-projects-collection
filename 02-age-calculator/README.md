@@ -1,48 +1,70 @@
 # 🎂 Age Calculator App
 
-A simple and responsive Age Calculator built using **HTML, CSS, and JavaScript**.  
-This app calculates your exact age in **years, months, and days** based on your date of birth.
+A simple and responsive Age Calculator built using HTML, CSS, and JavaScript.
+This app calculates your exact age in years, months, and days.
 
 ---
 
 ## 🚀 Features
 
-- 📅 Select your Date of Birth
-- ⚡ Instant age calculation
-- 🧮 Accurate result (Years, Months, Days)
-- 🎨 Beautiful gradient UI
-- 📱 Fully responsive design
+* Select Date of Birth
+* Calculate exact age (Years, Months, Days)
+* Instant result display
+* Responsive design
+* Clean UI
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (Flexbox + Gradient)
-- JavaScript (Date Object)
+* HTML5
+* CSS3
+* JavaScript
 
 ---
 
 ## 📂 Project Structure
-02-age-calculator/
-│
-├── index.html # Main HTML file
-├── style.css # Styling file
-├── app.js # JavaScript logic
-└── README.md # Project documentation
 
+age-calculator/
+│
+├── index.html
+├── style.css
+├── app.js
+└── README.md
 
 ---
 
 ## 💡 How It Works
 
-1. User selects date from input field
-2. JavaScript fetches today's date
-3. Difference is calculated:
-   - Years
-   - Months
-   - Days
-4. Result is displayed dynamically
+1. User selects date
+2. Current date is fetched
+3. Difference is calculated
+4. Result is displayed
 
 ---
 
+## ▶️ How to Run
+
+1. Clone repo
+   git clone https://github.com/your-username/age-calculator.git
+
+2. Open index.html
+
+---
+
+## ⚠️ Notes
+
+* Future dates are restricted
+* Works in all modern browsers
+
+---
+
+## 🙌 Author
+
+Pawandeep Kumar
+
+---
+
+## ⭐ Support
+
+Give this project a ⭐ if you like it!
