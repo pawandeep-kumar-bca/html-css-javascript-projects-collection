@@ -4,7 +4,7 @@ let month = document.getElementById("month");
 let year = document.getElementById("year");
 
 const today = new Date();
-let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday",];
+let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 date.innerHTML = (today.getDate()<10? "0":"")+ today.getDate();
