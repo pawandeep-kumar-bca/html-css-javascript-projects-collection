@@ -27,7 +27,7 @@ A modern and responsive **personal portfolio website** with a built-in **dark/li
 ## 📂 Project Structure
 
 ```
-project-folder/
+08-dark-mode-website/
 │
 ├── index.html
 ├── style.css
