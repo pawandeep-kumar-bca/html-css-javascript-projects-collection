@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player </title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+                <div class="circle">
+                        <i class="ri-menu-line"></i>
+                </div>
+
+            </nav>
+            <img src="https://i.pinimg.com/736x/f2/f1/41/f2f141d292141b8f1b85a935eb4c72ef.jpg" class="songImg">
+            <h1>Despactio</h1>
+            <p>Luis Fonsi Ft. Puerto Rican</p>
+
+            <audio id="song">
+                <source src="/Maa Ringtone _ Meri Maa Ringtone _ Maa Song Ringtone ❤️_ Mother Song Ringtone _ Sad Ringtone.mp4" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div>
+                    <i class="ri-rewind-start-fill"></i>
+                </div>
+                <div onclick="playPause()">
+                    <i class="ri-play-fill" id="ctrlIcon"></i>
+                </div>
+                <div>
+                    <i class="ri-forward-end-fill"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
