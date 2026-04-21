@@ -1,0 +1,110 @@
+@media (min-width: 942px) {
+  .container {
+    padding: 0 3rem;
+    header {
+      padding: 1.5rem 0;
+      .hamburger {
+        display: none;
+      }
+
+      .links {
+        display: block;
+        position: relative;
+        width: auto; // ✅ FIXED: remove full width
+        height: auto;
+        margin-top: 0;
+
+        ul {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          gap: 2rem;
+
+          li.icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    main {
+      .section {
+        flex-direction: row;
+        .left {
+          width: 40%;
+          text-align: left;
+          .h1 {
+            font-size: 3.2rem;
+            padding-top: 5rem;
+          }
+          p {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            width: 90%;
+          }
+        }
+        .right {
+          width: 60%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .right-1 {
+            margin-top: 2rem;
+            margin-left: 3rem;
+            width: 60%;
+            img {
+              width: 100%;
+            }
+          }
+          .right-2 {
+            margin-top: 2rem;
+            width: 22%;
+            grid-template-columns: repeat(1, auto);
+            gap: 1rem;
+
+            button {
+              padding: 0.2rem 0.5rem;
+              font-size: 1.3rem;
+              height: 4rem;
+              img {
+                width: 22%;
+              }
+            }
+          }
+        }
+      }
+      .sectionTwo {
+        margin-top: 4rem;
+        .slider-info {
+          h2 {
+            font-size: 2.5rem;
+          }
+          .icons {
+            i {
+              padding: 0.7rem;
+              font-size: 1.3rem;
+            }
+          }
+        }
+        .scroll-slider {
+          .scroll-fade {
+            width: 30px;
+          }
+           .slider {
+          overflow-x: auto;
+          flex-wrap: nowrap;
+          .popular-Dishes {
+            height: 28rem;
+
+            img {
+              width: 15rem;
+            }
+          }
+        }
+        }
+       
+      }
+    }
+  }
+}

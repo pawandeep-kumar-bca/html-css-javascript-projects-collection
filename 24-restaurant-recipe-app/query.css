@@ -1,0 +1,96 @@
+@media (min-width: 942px) {
+  .container {
+    padding: 0 3rem;
+  }
+  .container header {
+    padding: 1.5rem 0;
+  }
+  .container header .hamburger {
+    display: none;
+  }
+  .container header .links {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+  }
+  .container header .links ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  .container header .links ul li.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container main .section {
+    flex-direction: row;
+  }
+  .container main .section .left {
+    width: 40%;
+    text-align: left;
+  }
+  .container main .section .left .h1 {
+    font-size: 3.2rem;
+    padding-top: 5rem;
+  }
+  .container main .section .left p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 90%;
+  }
+  .container main .section .right {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container main .section .right .right-1 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 60%;
+  }
+  .container main .section .right .right-1 img {
+    width: 100%;
+  }
+  .container main .section .right .right-2 {
+    margin-top: 2rem;
+    width: 22%;
+    grid-template-columns: repeat(1, auto);
+    gap: 1rem;
+  }
+  .container main .section .right .right-2 button {
+    padding: 0.2rem 0.5rem;
+    font-size: 1.3rem;
+    height: 4rem;
+  }
+  .container main .section .right .right-2 button img {
+    width: 22%;
+  }
+  .container main .sectionTwo {
+    margin-top: 4rem;
+  }
+  .container main .sectionTwo .slider-info h2 {
+    font-size: 2.5rem;
+  }
+  .container main .sectionTwo .slider-info .icons i {
+    padding: 0.7rem;
+    font-size: 1.3rem;
+  }
+  .container main .sectionTwo .scroll-slider .scroll-fade {
+    width: 30px;
+  }
+  .container main .sectionTwo .scroll-slider .slider {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  .container main .sectionTwo .scroll-slider .slider .popular-Dishes {
+    height: 28rem;
+  }
+  .container main .sectionTwo .scroll-slider .slider .popular-Dishes img {
+    width: 15rem;
+  }
+}
