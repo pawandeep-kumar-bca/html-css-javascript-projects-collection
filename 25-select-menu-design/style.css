@@ -27,10 +27,7 @@ font-family: 'poppins',sans-serif;
     border-radius: 6px;
     cursor: pointer;
 }
-#selectFiled i{
-    font-size: 40px;
-    transform: transform 0.5s;
-}
+#selectFiled i{ font-size: 40px; transition: transform 0.5s;}
 .selector ul {
     background: rgba(255,255,255,0.7);
     width: 100%;
