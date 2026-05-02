@@ -1,31 +1,30 @@
-
 let shopItemsData = [
   {
     id: "pawan",
-    name: "casual Shirt",
+    name: "Casual Shirt",
     price: 45,
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sapiente a illo assumenda culpa quis neque adipisci.",
+    desc: "Comfortable casual shirt",
     img: "images/img1.jpg",
   },
   {
     id: "dep",
-    name: "office Shirt",
+    name: "Office Shirt",
     price: 145,
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sapiente a illo assumenda culpa quis neque adipisci.",
+    desc: "Perfect for office wear",
     img: "images/img2.jpg",
   },
   {
     id: "kumar",
-    name: "office Shirt",
+    name: "Formal Shirt",
     price: 450,
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sapiente a illo assumenda culpa quis neque adipisci.",
+    desc: "Premium formal shirt",
     img: "images/img3.jpg",
   },
   {
     id: "singh",
-    name: "Man Shirt",
+    name: "Men Shirt",
     price: 1000,
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sapiente a illo assumenda culpa quis neque adipisci.",
+    desc: "Stylish men's shirt",
     img: "images/img4.jpg",
   },
 ];
